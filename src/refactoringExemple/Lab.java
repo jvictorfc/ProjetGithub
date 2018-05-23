@@ -10,5 +10,33 @@ package refactoringExemple;
  * @author 1795928
  */
 public class Lab {
+    String idClass;
+    Integer capacity;
+    Integer nbComputers;
+
+    public String getIdClass() {
+        return idClass;
+    }
+
+    public void setIdClass(String idClass) {
+        this.idClass = idClass;
+    }
+
+    public Integer getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(Integer capacity) {
+        this.capacity = capacity;
+    }
+
+    public Integer getNbComputers() {
+        return nbComputers;
+    }
+
+    public void setNbComputers(Integer nbComputers) {
+        this.nbComputers = nbComputers;
+    }
+    
     
 }
